@@ -1,0 +1,271 @@
+$mainColor : #141414;
+$mainSecondColor : #191919;
+$mainSecondSecondColor: #282828;
+$focusColor : #FF389F;
+$superFocusColor : rgb(184, 49, 47);
+$descColor : #fff;
+
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+
+span{
+    color: $focusColor;
+    font-weight: bold;
+}
+
+b{
+    color: $superFocusColor;
+    font-weight: bold;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
+
+    background: $mainColor;
+
+    color: $descColor;
+    overflow-x: hidden;
+}
+
+.header{
+    width: 100%;
+    min-height: 10vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: $mainSecondColor;
+    border-bottom: 0.1vw solid $focusColor;
+
+    &-title{
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-title{
+            width: 30vw;
+            height: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            text-align: center;
+
+            &_name{
+                font-size: 2vw;
+                color: $descColor;
+            }
+            &_server{
+                font-size: 1.5vw;
+                color: $focusColor;
+            }
+        }
+    }
+}
+
+.wrappers{
+    width: 90vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: $mainSecondColor;
+
+    &-wrapper{
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        padding-top: 1vw;
+
+        &-header{
+            width: 100%;
+            height: 5vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 2vw;
+
+            cursor: pointer;
+            &-title{
+                &_title{
+                    font-size: 2vw;
+                    color: $focusColor;
+                    transition: 300ms;
+                }
+                &_title:hover{
+                    color: $descColor;
+                }
+            }
+        }
+        &-desc{
+            width: 95%;
+            min-height: 7vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &-desc{
+                &_desc{
+                    font-size: 0.8vw;
+                    color: $descColor;
+                }
+            }
+        }
+        &-articles{
+            width: 95%;
+            display: flex;
+            flex-wrap: wrap;
+            overflow: hidden;
+            transition: 300ms;
+            &-arcticle{
+                width: 14vw;
+                min-height: 5vh;
+
+                padding: 1.3vw;
+
+                display: flex;
+                flex-direction: column;
+                transition: 300ms;
+
+                cursor: pointer;
+
+                &-name{
+                    display: flex;
+                    // justify-content: center;
+                    // align-items: center;
+                    padding: 0.1vw;
+
+                    &_level{
+                        font-weight: bold;
+                        color: $superFocusColor;
+                        font-size: 1.5vw;
+                    }
+                    &_name{
+                        padding: 0.2vw;
+                        font-weight: bold;
+                        color: $focusColor;
+                        font-size: 1.2vw;
+                    }
+                    &_name:hover{
+                        transition: 300ms;
+                        color: $descColor;
+                    }
+                }
+                &-title{
+                    display: flex;
+                    // justify-content: center;
+                    // align-items: center;   
+                    flex-direction: column;
+                    word-wrap: break-word;
+                    padding: 0.1vw;
+                    &_title{
+                        line-height: 1.5vw;
+                        font-size: 0.9vw;
+                        color: $descColor;
+                    }
+                }
+                &-desc{
+
+                    display: none;
+                    justify-content: center;
+                    align-items: center;   
+                    flex-direction: column;
+
+                    padding: 0.1vw;
+                    &_desc{
+                        font-size: 1vw;
+                    }
+                }
+            }
+            &-arcticle:hover{
+                border-radius: 0.5vw;
+                background-color: $mainSecondSecondColor;
+            }
+        }
+    }
+}
+
+.arcticledesc{
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #28282886;
+
+    cursor: pointer;
+    &-wrapper{
+        width: 80vw;
+
+        min-height: 10vh;
+        max-height: 95vh;
+
+        border-radius: 0.5vw;
+        background-color: $mainSecondSecondColor;
+
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;
+
+        padding: 2vw;
+
+        &-name{
+            width: 95%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 0.5vw;
+
+            &_name{
+                color: $focusColor;
+                font-weight: bold;
+                font-size: 3vw;
+            }
+        }
+        &-desc{
+            width: 95%;
+
+            display: flex;
+            // justify-content: center;
+            // align-items: center;
+
+            word-wrap: break-word;
+            
+            overflow-y: auto;
+            &_desc{
+                line-height: 2vw;
+                font-size: 0.9vw;
+            }
+        }
+    }
+}
