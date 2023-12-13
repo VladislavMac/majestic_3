@@ -276,7 +276,7 @@ const articlesList =
     },
     {
         level: '****',
-        name: `15.1 | 15.2 | 15.3 | 15.4 | 15.5 | 15.6 | 16.5 | 17.5? |`,
+        name: `15.1 | 15.2 | 15.3 | 15.4 | 15.5 | 14.3 | 15.6 | 16.5 | 17.5? |`,
         title: `Сажать гос`,
         desc: `
         <a href="https://forum.majestic-rp.ru/threads/ugolovnyj-kodeks-shtata-san-andreas.19674/">ССЫЛКА</a>
