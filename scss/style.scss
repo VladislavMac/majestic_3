@@ -273,3 +273,38 @@ body, html{
         }
     }
 }
+
+@media only screen and (max-width:1000px){
+    div.wrappers-wrapper-articles-arcticle-name_level{
+        // font-weight: bold;
+        // color: $superFocusColor;
+        font-size: 1.7vw;
+        width: 4vw;
+    }
+    div.wrappers-wrapper-articles-arcticle-name_name{
+    //     padding: 0.2vw;
+    //     font-weight: 600;
+    //     color: $focusColor;
+        font-size: 1.4vw;
+        width: 17vw;
+    }
+    div.wrappers-wrapper-articles-arcticle-title_title{
+        // line-height: 1.5vw;
+        font-size: 1.3vw;
+        // color: $descColor;
+    }
+
+    // window
+
+    div.arcticledesc-wrapper{
+        // height: 90vh;
+    }
+
+    div.arcticledesc-wrapper-name{
+        padding: 1vw;
+    }
+
+    p.arcticledesc-wrapper-desc_desc{
+        font-size: 1.4vw;
+    }
+}   

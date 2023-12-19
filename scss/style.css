@@ -210,4 +210,24 @@ body, html {
 .arcticledesc-wrapper-desc_desc {
   line-height: 2vw;
   font-size: 0.9vw;
+}
+
+@media only screen and (max-width: 1000px) {
+  div.wrappers-wrapper-articles-arcticle-name_level {
+    font-size: 1.7vw;
+    width: 4vw;
+  }
+  div.wrappers-wrapper-articles-arcticle-name_name {
+    font-size: 1.4vw;
+    width: 17vw;
+  }
+  div.wrappers-wrapper-articles-arcticle-title_title {
+    font-size: 1.3vw;
+  }
+  div.arcticledesc-wrapper-name {
+    padding: 1vw;
+  }
+  p.arcticledesc-wrapper-desc_desc {
+    font-size: 1.4vw;
+  }
 }/*# sourceMappingURL=style.css.map */
