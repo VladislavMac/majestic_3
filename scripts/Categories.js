@@ -21,6 +21,13 @@ class Categories{
                         ${this.title}
                     </h1>
                 </div>
+                <div class="wrappers-wrapper-header-desc">
+                    <div class="wrappers-wrapper-header-desc-desc">
+                        <p class="wrappers-wrapper-header-desc-desc_desc">
+                            ${this.desc}
+                        </p>
+                    </div>
+                </div>
             </header>
 
 
@@ -28,14 +35,8 @@ class Categories{
             <div class="wrappers-wrapper-articles">
             </div>
         `
-        // <div class="wrappers-wrapper-desc">
-        //     <div class="wrappers-wrapper-desc-desc">
-        //         <p class="wrappers-wrapper-desc-desc_desc">
-        //             ${this.desc}
-        //         </p>
-        //     </div>
-        // </div>
-        
+
+
         this.articles = this.categorie.querySelector('.wrappers-wrapper-articles');
         this.header   = this.categorie.querySelector('.wrappers-wrapper-header');
 
@@ -52,7 +53,7 @@ class Categories{
 
     close(){
         this.height   = this.articles.getBoundingClientRect().height;
-        this.articles.style.height = '0px';
+        this.articles.style.height = '1vw';
 
         this.header.id = 'close';
     }

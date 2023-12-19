@@ -12,6 +12,8 @@ class Articles{
         this.article.className   = 'wrappers-wrapper-articles-arcticle';
         if( this.level === '****' ){
             this.level = `<b style='background: yellow;'>${this.level}</b>`
+        }else{
+            this.level = `<b style='background: white;'>${this.level}</b>`
         }
         this.article.innerHTML   = `
         <div class="wrappers-wrapper-articles-arcticle-name">

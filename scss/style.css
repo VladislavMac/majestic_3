@@ -14,6 +14,10 @@ b {
   font-weight: bold;
 }
 
+a {
+  font-weight: bold;
+}
+
 body, html {
   width: 100%;
   height: 100%;
@@ -74,6 +78,7 @@ body, html {
   align-items: center;
   flex-direction: column;
   padding-top: 1vw;
+  padding-bottom: 1vw;
 }
 .wrappers-wrapper-header {
   width: 100%;
@@ -84,6 +89,9 @@ body, html {
   padding: 1vw;
   cursor: pointer;
 }
+.wrappers-wrapper-header-title {
+  width: 60vw;
+}
 .wrappers-wrapper-header-title_title {
   font-size: 1.3vw;
   color: #fff;
@@ -92,14 +100,13 @@ body, html {
 .wrappers-wrapper-header-title_title:hover {
   color: #FF389F;
 }
-.wrappers-wrapper-desc {
-  width: 95%;
-  min-height: 7vh;
+.wrappers-wrapper-header-desc {
+  width: 10vw;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.wrappers-wrapper-desc-desc_desc {
+.wrappers-wrapper-header-desc-desc_desc {
   font-size: 0.8vw;
   color: #fff;
 }
