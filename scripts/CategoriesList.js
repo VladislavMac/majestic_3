@@ -43,10 +43,10 @@ const categoriesList =
         `,
     },
     {
-        id: 'gos',
-        title: `Конституционный Закон “О государственной службе”`,
+        id: 'lspd',
+        title: `Закон “О Los Santos Police Department и Sheriff Department”`,
         desc: `
-        <a href="https://forum.majestic-rp.ru/threads/konstitucionnyj-zakon-o-gosudarstvennoj-sluzhbe.744997/" target="_blank">ССЫЛКА</a>
+        <a href="https://forum.majestic-rp.ru/threads/zakon-o-los-santos-police-department-i-sheriff-department.975139/" target="_blank">ССЫЛКА</a>
         `,
     },
     {
