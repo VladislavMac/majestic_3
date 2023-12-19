@@ -23,17 +23,19 @@ class Categories{
                 </div>
             </header>
 
-            <div class="wrappers-wrapper-desc">
-                <div class="wrappers-wrapper-desc-desc">
-                    <p class="wrappers-wrapper-desc-desc_desc">
-                        ${this.desc}
-                    </p>
-                </div>
-            </div>
+
 
             <div class="wrappers-wrapper-articles">
             </div>
         `
+        // <div class="wrappers-wrapper-desc">
+        //     <div class="wrappers-wrapper-desc-desc">
+        //         <p class="wrappers-wrapper-desc-desc_desc">
+        //             ${this.desc}
+        //         </p>
+        //     </div>
+        // </div>
+        
         this.articles = this.categorie.querySelector('.wrappers-wrapper-articles');
         this.header   = this.categorie.querySelector('.wrappers-wrapper-header');
 
