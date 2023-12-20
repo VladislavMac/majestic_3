@@ -22,7 +22,7 @@ const categoriesList =
         `,
     },
     {
-        id: 'processes',
+        id: 'process',
         title: `Процессуальный Кодекс`,
         desc: `
         <a href="https://forum.majestic-rp.ru/threads/processualnyj-kodeks-shtata-san-andreas.19688/" target="_blank">ССЫЛКА</a>
