@@ -11,8 +11,26 @@ $descColor : #fff;
 }
 
 span{
-    color: $focusColor;
+    color: yellow;
     font-weight: bold;
+}
+
+span#gos{
+    color: rgb(89, 190, 248);
+    font-weight: bold;
+}
+span#fib{
+    color: rgb(99, 22, 255);
+    font-weight: bold;
+}
+span#need{
+    color: rgb(249, 58, 58);
+    font-weight: bold;
+    text-transform: uppercase
+}
+span#just{
+    color: rgb(0, 255, 234);
+    font-weight: normal;
 }
 
 b{
@@ -133,7 +151,7 @@ body, html{
     
                 &-desc{
                     &_desc{
-                        font-size: 0.8vw;
+                        font-size: 0.9vw;
                         color: $descColor;
                     }
                 }
@@ -173,11 +191,11 @@ body, html{
                         width: 3.5vw;
                     }
                     &_name{
+                        width: 13vw;
                         padding: 0.2vw;
-                        font-weight: 600;
                         color: $focusColor;
+                        font-weight: 600;
                         font-size: 1vw;
-                        width: 10vw;
                     }
                     &_name:hover{
                         transition: 300ms;
@@ -193,7 +211,7 @@ body, html{
                     padding: 0.1vw;
                     &_title{
                         line-height: 1.5vw;
-                        font-size: 0.9vw;
+                        font-size: 1vw;
                         color: $descColor;
                     }
                 }
