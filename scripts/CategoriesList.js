@@ -29,7 +29,7 @@ const categoriesList =
         `,
     },
     {
-        id: 'closedDoors',
+        id: 'closed',
         title: `Закон “О закрытых и охраняемых территориях”`,
         desc: `
         <a href="https://forum.majestic-rp.ru/threads/zakon-o-gosudarstvennyx-territorijax.62234/" target="_blank">ССЫЛКА</a>
@@ -40,6 +40,13 @@ const categoriesList =
         title: `Закон "О регулировании оборота оружия, боеприпасов и спецсредств"`,
         desc: `
         <a href="https://forum.majestic-rp.ru/threads/zakon-o-regulirovanii-oborota-oruzhija-boepripasov-i-specsredstv.1015326/" target="_blank">ССЫЛКА</a>
+        `,
+    },
+    {
+        id: 'gos',
+        title: `Конституционный Закон “О государственной службе”`,
+        desc: `
+        <a href="https://forum.majestic-rp.ru/threads/konstitucionnyj-zakon-o-gosudarstvennoj-sluzhbe.744997/" target="_blank">ССЫЛКА</a>
         `,
     },
     {
