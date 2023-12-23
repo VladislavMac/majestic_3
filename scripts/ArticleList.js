@@ -117,7 +117,7 @@ const articlesList =
         parent: `uk`
     },
     {
-        level: '**',
+        level: '***',
         name: `Статья 9.5 (R)`,
         title: `<span id="need">Запугивание, шантаж, либо угроза убийством</span>`,
         desc: `
