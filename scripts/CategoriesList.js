@@ -77,5 +77,19 @@ const categoriesList =
         <a href="https://forum.majestic-rp.ru/threads/zakon-o-gosudarstvennoj-tajne.744550/" target="_blank">ССЫЛКА</a>
         `,
     },
+    {
+        id: 'proc',
+        title: `Толкования Генерального Прокурора`,
+        desc: `
+        <a href="https://forum.majestic-rp.ru/threads/tolkovanija-generalnogo-prokurora.866147/" target="_blank">ССЫЛКА</a>
+        `,
+    },
+    {
+        id: '-',
+        title: `Одобренные законопроекты`,
+        desc: `
+        <a href="https://forum.majestic-rp.ru/forums/odobrennye-zakonoproekty.725/" target="_blank">ССЫЛКА</a>
+        `,
+    },
 
 ]
